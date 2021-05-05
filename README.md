@@ -8,6 +8,11 @@ To re-create the controller functions in order to fly the Syma X5C with any devi
 
 I found a [blog post](http://inductivekickback.blogspot.com/2015/11/) where someone reversed the controller for the Syma X4 quadcopter. After creating a model of the Syma X5C's circuit (controller_circuit.asc), their description of the antenna's pinout was identical to mine, so I assumed that the Syma X5C also uses SPI to communicate between the microcontroller and the antenna. I probed the SCK, MOSI, and MISO pins on the antenna to compare the signal with what the blog reported but have yet to determine whether the flight control protocol is identical. Once I identify the packet structure for flight control, I can recreate it in a C program that can be uploaded to an Arduino or executed by a computer to fly the Syma X5C.
 
+## Organization
+
+- See notes.md for some resources and my general thoughts on the project
+- All test observations are archived in test_captures folder according to the date and the number of test that I made that day. There is a markdown file in each test folder that explains the set up and observations of each test.
+
 ## Future Improvements
 
 - Replace camera peripheral on the syma x5c with TX unit to do closed loop control?
