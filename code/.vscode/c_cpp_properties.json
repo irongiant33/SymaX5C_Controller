@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/irongiant/Downloads/arduino-1.8.15/**",
+                "/home/irongiant/Downloads/arduino-1.8.15/hardware/arduino/avr/cores/arduino/",
+                "/home/irongiant/Downloads/arduino-1.8.15/hardware/arduino/avr/libraries/EEPROM/",
+                "/home/irongiant/Downloads/arduino-1.8.15/hardware/arduino/avr/libraries/HID/",
+                "/home/irongiant/Downloads/arduino-1.8.15/hardware/arduino/avr/libraries/SPI/",
+                "/home/irongiant/Downloads/arduino-1.8.15/hardware/arduino/avr/libraries/SoftwareSerial/",
+                "/home/irongiant/Downloads/arduino-1.8.15/hardware/arduino/avr/libraries/Wire/",
+                "/home/irongiant/Downloads/arduino-1.8.15/hardware/tools/avr/avr/include/",
+                "/home/irongiant/Downloads/arduino-1.8.15/hardware/tools/avr/avr/include/avr/",
+                "/home/irongiant/Downloads/arduino-1.8.15/hardware/tools/avr/avr/include/compat/",
+                "/home/irongiant/Downloads/arduino-1.8.15/hardware/tools/avr/avr/include/util/",
+                "/home/irongiant/Downloads/arduino-1.8.15/hardware/tools/avr/lib/gcc/avr/7.3.0/include/",
+                "/home/irongiant/Downloads/arduino-1.8.15/hardware/tools/avr/lib/gcc/avr/7.3.0/include-fixed/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
+
+{
+    "arduino.path": "C:/Program Files (x86)/Arduino",
+    "arduino.commandPath": "arduino_debug.exe",
+    "arduino.logLevel": "info",
+    "arduino.allowPDEFiletype": false,
+    "arduino.enableUSBDetection": true,
+    "arduino.disableTestingOpen": false,
+    "arduino.skipHeaderProvider": false,
+    "arduino.additionalUrls": [
+        "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json",
+        "http://arduino.esp8266.com/stable/package_esp8266com_index.json"
+    ],
+    "arduino.defaultBaudRate": 115200
+}
